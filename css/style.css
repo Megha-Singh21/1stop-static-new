@@ -28,6 +28,7 @@ body {
 
 a{
     text-decoration: none;
+    color: #000;
 }
 
 .navbar {
@@ -196,6 +197,9 @@ a{
   .text-orange{
     color: #FF6700;
   }
+  .text-blue{
+    color: #054DC8;
+  }
   .bg-sec{
     background-color: #1da2e531;
     padding: 10px;
@@ -205,11 +209,11 @@ a{
   .card{
     border: 0;
     box-shadow: 0px 4px 4px 0px #00000040;
-    border-radius: 40px;
   }
 .std-card{
     height: 310px;
     margin: 10px;
+    border-radius: 40px;
 }
   .std-img{
     width: 140px;
@@ -226,7 +230,8 @@ a{
     width: revert-layer !important;
   }
   .owl-carousel .owl-stage-outer{
-    overflow: visible !important;
+    padding-top: 80px;
+  
   }
   .owl-carousel .owl-nav{
     text-align: center;
@@ -254,6 +259,33 @@ a{
   }
 
   .course-cat:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 30px;
+  }
+
+  .img-course{
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .25);
+    border-radius: 30px;
+    overflow: hidden;
+    height: 200px;
+  }
+
+  .course-content{
+    margin-top: -30px;
+  }
+
+  .filterDiv {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+
+  .filter.active .course-cat{
     color: #000;
     background: #fff;
     border-radius: 30px;

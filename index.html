@@ -232,7 +232,7 @@
         <div class="text-center">
             <img src="images/Rectangle-73.png" alt="">
         </div>
-        <div class="owl-carousel owl-theme mt-5 pt-5">
+        <div class="owl-carousel owl-theme pt-5">
             <div class="item">
                 <div class="card std-card">
                     <div class="d-flex justify-content-center">
@@ -362,46 +362,619 @@
         </div>
     </div>
 
-    <div class="container pt-5 pb-5">
+    <div class="container pb-5">
         <h2 class="text-center fw-bold">Explore our programs</h2>
         <div class="text-center">
             <img src="images/Rectangle-73.png" alt="">
         </div>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row mt-4">
+            <div class="col-md-4 mt-3">
                 <div class="card course-card">
-                    <div class="p-4">
-                        <div class="d-flex align-items-start mb-1">
+                    <div class="p-4 " id="gridFilter">
+                        <div class="d-flex align-items-start mb-1 filter active" onclick="filterSelection('ds')">
                             <img src="images/DataScienceIcon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Data science & Analytics</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
-                        <div class="d-flex align-items-start mb-1">
+                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('sd')">
                             <img src="images/SoftwareDevelopmentIcon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Software Development</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
-                        <div class="d-flex align-items-start mb-1">
+                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('cp')">
                             <img src="images/CoreProgramsIcon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Core Programs</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
-                        <div class="d-flex align-items-start mb-1">
+                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('ce')">
                             <img src="images/CloudIcon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Cloud Engineer</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
-                        <div class="d-flex align-items-start mb-1">
+                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('csp')">
                             <img src="images/Cybersecurityicon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Cyber Security Program</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
-                        <div class="d-flex align-items-start mb-1">
+                        <div class="d-flex align-items-start mb-1 filter" onclick="filterSelection('bs')">
                             <img src="images/Businessicon.png" width="40px" alt="">
                             <h6 class="ms-2 course-cat">Business</h6>
                             <img src="images/weui_arrow-filled.png" height="30px" class="ms-2" alt="">
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mt-3 filterDiv ds">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/course-img.jpeg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Machine Learning</b></h4>
+                                    <p class="op-7">Machine learning is the study of computer algorithms that can
+                                        improve
+                                        automatically through experience.</p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/fox-trading.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv ds">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/course-img2.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Data Science</b></h4>
+                                    <p class="op-7">Data science is an interdisciplinary field that uses scientific
+                                        methods, processes, algorithms and s...</p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/personifwy.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv ds">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/iot.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>IOT</b></h4>
+                                    <p class="op-7">The Internet of Things (IoT) describes the network of physical
+                                        objects “things” that are embedde...</p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/Apsis.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv ds">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/ai.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Artificial Intelligence</b></h4>
+                                    <p class="op-7">Artificial intelligence (AI) is the ability of a computer or a robot
+                                        controlled by a computer to do ...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/personifwy.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv sd">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/java.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>JAVA</b></h4>
+                                    <p class="op-7">This comprehensive Java programming course is designed for
+                                        individuals who have little or no prior e...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/worisgo.jpeg" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv sd">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/wd-f.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Web Development Front-end</b></h4>
+                                    <p class="op-7">Web development is the work involved in developing a Web site for
+                                        the Internet (World Wide Web) or a...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/raise-digital.jpg" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv sd">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/wd-b.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Web Development Back-end</b></h4>
+                                    <p class="op-7">Web development is the process of building and maintaining a website
+                                        for the Internet or an intranet...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/worisgo.jpeg" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv sd">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/a-dev.avif" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Android Development</b></h4>
+                                    <p class="op-7">Android software development is the process by which applications
+                                        are created for devices running th...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/Threat-prism.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv load-item cp">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/thermo.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Thermodynamics with MATLAB</b></h4>
+                                    <p class="op-7">Thermodynamics is the study of the relations between heat, work,
+                                        temperature, and energy. The laws o...
+                                    </p>
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/cryogenics.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv load-item cp">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/hev.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Hybrid Electric Vehicle</b></h4>
+                                    <p class="op-7">A Hybrid Electric Vehicle is a type of hybrid vehicle that combines
+                                        a conventional internal combusti...
+                                    </p>
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/Apsis.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv load-item cp">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/ac-civil.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>AutoCAD Civil</b></h4>
+                                    <p class="op-7">A Hybrid Electric Vehicle is a type of hybrid vehicle that combines
+                                        a conventional internal combusti...
+                                    </p>
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/wissen.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv load-item cp">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/rob.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Robotics</b></h4>
+                                    <p class="op-7">This course is an overview of robotic and automated systems
+                                        technology. The student will be introduc...
+                                    </p>
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/wissen.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv load-item">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/acad-ansys.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>AutoCAD/Catia/Ansys</b></h4>
+                                    <p class="op-7">AutoCAD mechanical is an add on to AutoCAD it is designed to draw
+                                        piping, plumbing, ducting, and ele...
+                                    </p>
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/wissen.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv load-item">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/VLSI.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>VLSI</b></h4>
+                                    <p class="op-7">Very large-scale integration is the process of creating an
+                                        integrated circuit by combining millions ...
+                                    </p>
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/Apsis.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-center filterDiv cp">
+                        <a href="" class="load-more">Load More...</a>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv ce">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/cc.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Cloud Computing</b></h4>
+                                    <p class="op-7">This course is designed to give you a comprehensive introduction to
+                                        cloud computing, covering every...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/worisgo.jpeg" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv csp">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/cs.jpeg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Cyber Security_Ethical Hacking</b></h4>
+                                    <p class="op-7">Cyber-security, Computer security,or information technology security
+                                        is the protection of computer s...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/Threat-prism.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 filterDiv bs">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/sep.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Startup and Enterpreneurship</b></h4>
+                                    <p class="op-7">This comprehensive Java programming course is designed for
+                                        individuals who have little or no prior e...
+                                    </p>
+
+                                    <hr>
+                                    <h6><b>Next Batch: Starts from </b>1st Nov 2024</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>1/50</b> seats available</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/Movidu.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jobs" class="container pb-5 pt-5">
+        <h2 class="text-center fw-bold text-blue">Advance your career with our specialized <span
+                class="text-orange">Job-Oriented Program</span></h2>
+        <p class="text-center text-blue">Crafted to ensure you meet industry standards and <span
+                class="text-orange">stand out</span> in your job search.</p>
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mt-3">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/course-img.jpeg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Machine Learning</b></h4>
+                                    <p class="op-7">Machine learning is the study of computer algorithms that can
+                                        improve
+                                        automatically through experience.</p>
+        
+                                    <hr>
+                                    <h6><b>Job Type: </b>Internship</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>Location: </b> Bengaluru</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/fox-trading.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Details</a>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="px-3">
+                            <a href="#">
+                                <div class="img-course">
+                                    <img src="images/course-img2.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="course-content card p-3 mx-3 pt-5">
+                                    <h4 class="text-orange"><b>Data Science</b></h4>
+                                    <p class="op-7">Data science is an interdisciplinary field that uses scientific
+                                        methods, processes, algorithms and s...</p>
+        
+                                    <hr>
+                                    <h6><b>Job Type: </b>Internship</h6>
+                                    <div>
+                                        <img src="images/chair-icon.png" width="30px" alt="">
+                                        <span><b>Location: </b> Bengaluru</span>
+                                    </div>
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div><img src="images/personifwy.png" width="100px" alt=""></div>
+                                        <div>
+                                            <a href="#" class="btn-style2">View Details</a>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <div>
+                    <img src="images/job-img.gif" width="100%" alt="">
                 </div>
             </div>
         </div>
@@ -464,6 +1037,70 @@
                 }
             }
         })
+    </script>
+
+    <script>
+        filterSelection("ds")
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == " ") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("gridFilter");
+        var btns = btnContainer.getElementsByClassName("filter");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <script>
+        $(function () {
+            $(".load-item").slice(0, 0).show();
+            $("body").on('click touchstart', '.load-more', function (e) {
+                e.preventDefault();
+                $(".load-item:hidden").slice(0, 2).slideDown();
+                if ($(".load-item:hidden").length == 0) {
+                    $(".load-more").css('visibility', 'hidden');
+                }
+                $('html,body').animate({
+                    scrollTop: $(this).offset().top
+                }, 1000);
+            });
+        });
     </script>
 </body>
 
