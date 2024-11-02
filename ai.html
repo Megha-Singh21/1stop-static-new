@@ -90,7 +90,7 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-md-3 d-flex flex-column align-items-center">
+            <div class="col-md-3 d-flex flex-column justify-content-between">
                 <div class="p-2 w-100">
                     <div class="pdp-num-card text-center">
                         <h6>23k+ <br>Job Openings</h6>
@@ -131,38 +131,46 @@
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="d-flex align-items-start">
-                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                                    aria-selected="true">Introduction to AI</button>
-                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-profile" type="button" role="tab"
-                                    aria-controls="v-pills-profile" aria-selected="false">Python Basics</button>
-                                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-messages" type="button" role="tab"
-                                    aria-controls="v-pills-messages" aria-selected="false">Intelligent Agents</button>
-                                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-settings" type="button" role="tab"
-                                    aria-controls="v-pills-settings" aria-selected="false">Problem Solving</button>
-                                    <button class="nav-link" id="v-pills-101-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-101" type="button" role="tab"
-                                    aria-controls="v-pills-101" aria-selected="false">Adversarial Search</button>
-                                    <button class="nav-link" id="v-pills-102-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-102" type="button" role="tab"
-                                    aria-controls="v-pills-102" aria-selected="false">Machine Learning</button>
-                                    <button class="nav-link" id="v-pills-103-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-103" type="button" role="tab"
-                                    aria-controls="v-pills-103" aria-selected="false">Deep Learning</button>
+                            <div class="nav flex-column nav-pills me-3 curriculum-sidebar" id="v-pills-tab"
+                                role="tablist" aria-orientation="vertical">
+                                <button class="nav-link active d-flex justify-content-between" id="v-pills-home-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                                    aria-controls="v-pills-home" aria-selected="true">Introduction to AI <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-profile-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab"
+                                    aria-controls="v-pills-profile" aria-selected="false">Python Basics <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-messages-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab"
+                                    aria-controls="v-pills-messages" aria-selected="false">Intelligent Agents <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-settings-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab"
+                                    aria-controls="v-pills-settings" aria-selected="false">Problem Solving <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-101-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-101" type="button" role="tab"
+                                    aria-controls="v-pills-101" aria-selected="false">Adversarial Search <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-102-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-102" type="button" role="tab"
+                                    aria-controls="v-pills-102" aria-selected="false">Machine Learning <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
+                                <button class="nav-link d-flex justify-content-between" id="v-pills-103-tab"
+                                    data-bs-toggle="pill" data-bs-target="#v-pills-103" type="button" role="tab"
+                                    aria-controls="v-pills-103" aria-selected="false">Deep Learning <span
+                                        class="ms-5"><i class="fa-solid fa-angle-right"></i></span></button>
                             </div>
-                            <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-content curri-scroll" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                     aria-labelledby="v-pills-home-tab">
-                                    <div class="card p-2">
+                                    <div class="p-2">
                                         <ul>
                                             <li>Overview of AI
                                                 <ul>
-                                                    <li>The simulation of human intelligence processes by machines, especially computer systems</li>
+                                                    <li>The simulation of human intelligence processes by machines,
+                                                        especially computer systems</li>
                                                 </ul>
                                             </li>
                                             <li>Applications of AI
@@ -186,18 +194,267 @@
                                             <li>Types of AI
                                                 <ul>
                                                     <li>Capabilities - Weak AI, General AI, Super AI</li>
-                                                    <li>Functionalities - Relative Machines, Limited Memory, Theory of Mind</li>
+                                                    <li>Functionalities - Relative Machines, Limited Memory, Theory of
+                                                        Mind</li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                    aria-labelledby="v-pills-profile-tab">...</div>
+                                    aria-labelledby="v-pills-profile-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Introduction to Python</li>
+                                            <li>Python Functions, Packages, and Routines.
+                                                <ul>
+                                                    <li>Functions: Fuctions are blocks of reusable code that perform a
+                                                        specific task.They are defined using the def keyword, allow
+                                                        parameters, and can return results, making code more modular and
+                                                        organised.</li>
+                                                    <li>Python Packages: Packages are collections of modules that group
+                                                        related functions, classes, and routines together.</li>
+                                                    <li>Routines: Refers to a series of programmed instructions or
+                                                        functions that can be reused to perform common tasks. They help
+                                                        automate processes, improve efficiency, and minimise code
+                                                        duplication.</li>
+                                                </ul>
+                                            </li>
+                                            <li>Working with Data structure, Arrays, Vectors & Data Frames.
+                                                <ul>
+                                                    <li>Data structures in Python (e.g., lists, tuples, dictionaries,
+                                                        and sets) are ways to store and organise data efficiently. They
+                                                        allow for easy access, modification, and management of data
+                                                        depending on the structure's properties.</li>
+                                                    <li>Arrays (using libraries like numpy) and vectors are ordered
+                                                        collections of elements, typically of the same data type. Arrays
+                                                        support fast mathematical operations, while vectors are 1D
+                                                        arrays often used in linear algebra and machine learning.</li>
+                                                    <li>It is a two-dimensional, table-like data structure (from
+                                                        libraries like pandas) where data is stored in rows and columns.
+                                                        It’s ideal for handling and manipulating structured data,
+                                                        similar to spreadsheets or SQL tables.</li>
+                                                </ul>
+                                            </li>
+                                            <li>Pandas, NumPy, Matplotib packages.
+                                                <ul>
+                                                    <li>Powerful library for data manipulation and analysis, Pandas
+                                                        provides data structures like DataFrames, allowing for easy
+                                                        handling, cleaning, and transformation of structured data.</li>
+                                                    <li>A fundamental package for numerical computations, NumPy offers
+                                                        support for multi-dimensional arrays and a wide range of
+                                                        mathematical functions for operations on arrays and matrices.
+                                                    </li>
+                                                    <li>A popular plotting library used for creating static,
+                                                        interactive, and animated visualisations in Python, Matplotlib
+                                                        allows users to generate a wide variety of charts, including
+                                                        line plots, histograms, and scatter plots.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                    aria-labelledby="v-pills-messages-tab">...</div>
+                                    aria-labelledby="v-pills-messages-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Intelligent Agents
+                                                <ul>
+                                                    <li>Autonomous systems that perceive their environment, make
+                                                        decisions, and take actions to achieve specific goals, often
+                                                        improving performance through learning and adaptation.</li>
+
+                                                </ul>
+                                            </li>
+                                            <li>Rational Agents
+                                                <ul>
+                                                    <li>These agents act to achieve the best possible outcome based on
+                                                        the information they have, making decisions using logic,
+                                                        knowledge, reasoning and aiming to act optimally in any given
+                                                        situation that maximises expected utility and aligns with their
+                                                        goals.</li>
+
+                                                </ul>
+                                            </li>
+                                            <li>PEAS Representation
+                                                <ul>
+                                                    <li>Performance</li>
+                                                    <li>Environment</li>
+                                                    <li>Actuators</li>
+                                                    <li>Sensors</li>
+                                                </ul>
+                                            </li>
+                                            <li>Types of AI Agents
+                                                <ul>
+                                                    <li>Simple reflex agents</li>
+                                                    <li>Model-based agent</li>
+                                                    <li>Goal-based agents</li>
+                                                    <li>Utility-based agents</li>
+                                                    <li>Learning agents</li>
+                                                </ul>
+                                            </li>
+                                            <li>Uninformed Search Examples
+                                                <ul>
+                                                    <li>​​Explore a problem space without using additional information
+                                                        beyond the structure of the problem.</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                    aria-labelledby="v-pills-settings-tab">...</div>
+                                    aria-labelledby="v-pills-settings-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Search Algorithms
+                                                <ul>
+                                                    <li>Terminologies</li>
+                                                    <li>Transition Model</li>
+                                                    <li>Optimal Solution</li>
+                                                </ul>
+                                            </li>
+                                            <li>Uninformed Search Algorithm
+                                                <ul>
+                                                    <li>Breadth First Search</li>
+                                                    <li>Depth First Search</li>
+                                                    <li>Depth Limited Search</li>
+                                                    <li>Uniform Cost Search</li>
+                                                    <li>Iterative Deepening Depth First Search</li>
+                                                    <li>Bidirectional Search</li>
+                                                </ul>
+                                            </li>
+                                            <li>Informed (Heuristic) Search Algorithm
+                                                <ul>
+                                                    <li>Best First Search</li>
+                                                    <li>A* Search</li>
+                                                </ul>
+                                            </li>
+                                            <li>Hill Climbing Algorithm
+                                                <ul>
+                                                    <li>No Backtracking</li>
+                                                    <li>State Space Diagram</li>
+                                                    <li>Simple Hill Climb</li>
+                                                    <li>Steepest Ascent Hill Climb</li>
+                                                    <li>Stochastic Hill Climb</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-101" role="tabpanel"
+                                    aria-labelledby="v-pills-101-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Adversarial Search and Games
+                                                <ul>
+                                                    <li>Purpose: Game-playing</li>
+                                                    <li>Components: Players, States</li>
+                                                    <li>Deterministic Games</li>
+                                                    <li>Non Deterministic Games</li>
+                                                    <li>Zero Sum Game</li>
+                                                    <li>Tic Tac Toe Game</li>
+                                                </ul>
+                                            </li>
+                                            <li>Minimax Algorithm
+                                                <ul>
+                                                    <li>Goal: Optimal decision-making</li>
+                                                    <li>Type: Adversarial search</li>
+                                                    <li>Process: Evaluate moves, Minimise loss</li>
+                                                    <li>Components: Max player, Min player</li>
+                                                    <li>Use: Two-player games</li>
+                                                </ul>
+                                            </li>
+                                            <li>Alpha-Beta Pruning
+                                                <ul>
+                                                    <li>Purpose: Optimise Minimax</li>
+                                                    <li>Function: Reduce search space</li>
+                                                    <li>Technique: Prune branches</li>
+                                                    <li>Efficiency: Faster evaluation</li>
+                                                    <li>Use: Game AI strategies</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-102" role="tabpanel"
+                                    aria-labelledby="v-pills-102-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Introduction to ML</li>
+                                            <li>Types of ML
+                                                <ul>
+                                                    <li>Supervised Learning</li>
+                                                    <li>Unsupervised Learning</li>
+                                                    <li>Reinforcement Learning</li>
+                                                </ul>
+                                            </li>
+                                            <li>Life Cycle of ML
+                                                <ul>
+                                                    <li>Gathering Data</li>
+                                                    <li>Data Preparation</li>
+                                                    <li>Data Wrangling</li>
+                                                    <li>Data Analysis</li>
+                                                    <li>Train Model</li>
+                                                    <li>Test Model</li>
+                                                    <li>Deployment</li>
+                                                </ul>
+                                            </li>
+                                            <li>Supervised Learning
+                                                <ul>
+                                                    <li>Classification - Logistic Regression, Decision Trees, SVM, KNN,
+                                                        Naive Bayes,</li>
+                                                    <li>Regression - Linear Regression, Polynomial Regression,Ridge
+                                                        Regression,SVR</li>
+                                                </ul>
+                                            </li>
+                                            <li>Unsupervised Learning
+                                                <ul>
+                                                    <li>Types: Clustering, Dimensionality Reduction, Association</li>
+                                                    <li>Techniques: K-Means, Hierarchical Clustering, PCA</li>
+                                                </ul>
+                                            </li>
+                                            <li>Clustering Methods
+                                                <ul>
+                                                    <li>Partitioning Clustering</li>
+                                                    <li>Density Based Clustering</li>
+                                                    <li>Distribution Model Based Clustering</li>
+                                                    <li>Hierarchical Clustering</li>
+                                                </ul>
+                                            </li>
+                                            <li>Association Rules
+                                                <ul>
+                                                    <li>Metrics of Association Rule Learning - Support, Lift, Confidence
+                                                    </li>
+                                                    <li>Types - Apriori Algorithm, Eclat Algorithm, F-P Growth Algorithm
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-103" role="tabpanel"
+                                    aria-labelledby="v-pills-103-tab">
+                                    <div class="p-2">
+                                        <ul>
+                                            <li>Introduction to Deep Learning</li>
+                                            <li>Architecture and Application
+                                                <ul>
+                                                    <li>Architecture - Deep Learning Network, Deep Belief Network</li>
+                                                    <li>Types - FFNN,CNN,Restricted Boltzmann Machine, Autoencoders</li>
+                                                </ul>
+                                            </li>
+                                            <li>Deep Learning Algorithms
+                                                <ul>
+                                                    <li>Convolutional Neural Networks</li>
+                                                    <li>Long Short Term Memory Networks</li>
+                                                    <li>Recurrent Neural Networks</li>
+                                                    <li>Generative Adversarial Networks</li>
+                                                    <li>Radial Basis Function Networks</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -213,12 +470,39 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <div class="row">
+                            <div class="col-md-6 px-2">
+                                <div class="card px-2 py-3">
+                                    <h4 class="btn-style2">Text Classification With Tensorflow</h4>
+                                    <p><b>Mastery of TensorFlow Ecosystem:</b> Gained practical experience in working
+                                        with TensorFlow, TensorFlow Hub, and TensorFlow Datasets for loading, splitting,
+                                        and processing data, especially for tasks like sentiment analysis.</p>
+                                    <p><b>Transfer Learning for NLP:</b> Learned to leverage pretrained models from
+                                        TensorFlow Hub to efficiently implement transfer learning in natural language
+                                        processing tasks, enhancing model performance with minimal effort.</p>
+                                    <p><b>Model Building and Evaluation:</b> Developed skills in building, training, and
+                                        evaluating neural networks, focusing on performance metrics like accuracy and
+                                        loss to fine-tune the model for better predictions.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-2">
+                                <div class="card px-2 py-3">
+                                    <h4 class="btn-style2">Classification of Pet's Faces</h4>
+                                    <p><b>Image Data Handling and Label Encoding:</b> The project effectively extracts
+                                        pet breed names from image filenames, encodes them into numerical labels, and
+                                        resizes images to a standard size (224x224), ensuring consistency for model
+                                        training.</p>
+                                    <p><b>Dataset Exploration and Visualization:</b> The project uses Matplotlib to
+                                        visualise the pet images and their distribution, helping to identify class
+                                        imbalances and ensuring that the dataset is suitable for building a robust
+                                        classifier.</p>
+                                    <p><b>TensorFlow Integration for Feature Extraction:</b> It leverages TensorFlow’s
+                                        image processing capabilities to load, resize, and convert images into arrays,
+                                        preparing the dataset for deep learning model development focused on pet breed
+                                        classification.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -232,14 +516,59 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <div class="row">
+                            <div class="col-md-6 px-2">
+                                <div class="card px-2 py-3">
+                                    <h4 class="btn-style4">Landmark Detection</h4>
+                                    <p><b>Image Preprocessing and Data Management:</b> Gained experience in loading,
+                                        managing, and preprocessing large-scale image datasets using libraries like
+                                        OpenCV, PIL, and pandas, essential for preparing data for deep learning models.
+                                    </p>
+                                    <p><b>Using VGG-19 for Transfer Learning:</b> Applied the VGG-19 model, a powerful
+                                        pre trained convolutional neural network, for transfer learning. This involved
+                                        adapting the model to classify landmark images, showcasing the efficiency of
+                                        using pre-trained architectures for specialised tasks with limited labelled
+                                        data.</p>
+                                    <p><b>End-to-End Workflow Integration:</b> Developed skills in building an end-to-
+                                        end workflow, integrating TensorFlow for model training, OpenCV for image
+                                        handling, and Matplotlib for visualisation. This included fine-tuning the VGG-
+                                        19 model for improved performance on the landmark classification task.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <h2 class="text-blue fw-bold text-center">Get Certified, Get Ahead! Your success starts here!</h2>
+        <div class="text-center">
+            <img src="images/Rectangle-73.png" alt="">
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4 px-2">
+                <img src="images/AI-P.png" width="100%" alt="">
+            </div>
+            <div class="col-md-4 px-2">
+                <img src="images/certificate_1.jpeg" width="100%" alt="">
+            </div>
+            <div class="col-md-4 px-2">
+                <img src="images/certificate_2.jpeg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+                <h2 class="text-blue fw-bold">Meet your mentors!</h2>
+                <h5><b>Our expert instructors guide you through the fundamentals in an engaging and supportive learning
+                        environment.</b></h5>
+            </div>
+            <div class="col-md-4">
+                <img src="images/pdp-mentor.gif" width="100%" alt="">
             </div>
         </div>
     </div>
